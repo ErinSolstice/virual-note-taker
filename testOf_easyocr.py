@@ -5,7 +5,7 @@ import numpy as np
 
 reader = easyocr.Reader(['en']) # this needs to run only once to load the model into memory
 
-image = cv2.imread('sampleImages\handNeatRect.jpg')
+image = cv2.imread('sampleImages\dataset.png')
 results = reader.readtext(image)
 
 def cleanup_text(text):
@@ -30,8 +30,14 @@ for (bbox, text, prob) in results:
 	# with the OCR'd text itself
 	text = cleanup_text(text)
 	cv2.rectangle(cloneImg, tl, br, (0, 255, 0), 2)
-	cv2.putText(cloneImg, text, (tl[0], tl[1] - 10),
-		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
+#	cv2.putText(cloneImg, text, (tl[0], tl[1] - 10),
+#		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
+
+final_text = ""
+for _, text, __ in results: # _ = bounding box, text = text and __ = confident level
+    final_text += " "
+    final_text += text
+print(final_text)
 
 # show the output image
 cv2.imshow('image', cloneImg)

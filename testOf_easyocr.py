@@ -30,13 +30,15 @@ for (bbox, text, prob) in results:
 	# with the OCR'd text itself
 	text = cleanup_text(text)
 	cv2.rectangle(cloneImg, tl, br, (0, 255, 0), 2)
+
 #	cv2.putText(cloneImg, text, (tl[0], tl[1] - 10),
-#		cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
+
+#   cv2.FONT_HERSHEY_SIMPLEX, 0.8, (0, 255, 0), 2)
 
 final_text = ""
 for _, text, __ in results: # _ = bounding box, text = text and __ = confident level
-    final_text += " "
-    final_text += text
+	final_text += " "
+	final_text += text
 print(final_text)
 
 # show the output image

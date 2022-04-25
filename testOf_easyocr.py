@@ -3,17 +3,19 @@ import argparse
 import cv2
 import numpy as np
 
-reader = easyocr.Reader(['en']) # this needs to run only once to load the model into memory
+reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
 
-image = cv2.imread('sampleImages\dataset.png')
-results = reader.readtext(image)
+img = cv2.imread('sampleImages\dataset.png')
+results = reader.readtext(img)
+
 
 def cleanup_text(text):
 	# strip out non-ASCII text so we can draw the text on the image
 	# using OpenCV
 	return "".join([c if ord(c) < 128 else "" for c in text]).strip()
 
-cloneImg = image.copy()
+
+cloneImg = img.copy()
 cv2.imshow('image', cloneImg)
 
 # loop over the results
@@ -30,6 +32,7 @@ for (bbox, text, prob) in results:
 	# with the OCR'd text itself
 	text = cleanup_text(text)
 	cv2.rectangle(cloneImg, tl, br, (0, 255, 0), 2)
+
 
 #	cv2.putText(cloneImg, text, (tl[0], tl[1] - 10),
 

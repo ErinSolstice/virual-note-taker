@@ -5,7 +5,7 @@ import numpy as np
 
 reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
 
-img = cv2.imread('sampleImages\dataset.png')
+img = cv2.imread('sampleImages\\test2.png')
 results = reader.readtext(img)
 
 

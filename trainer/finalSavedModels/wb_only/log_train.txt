@@ -1,0 +1,36 @@
+[10000/40000] Train loss: 0.26327, Valid loss: 1.40290, Elapsed_time: 1858.50938
+Current_accuracy : 4.246, Current_norm_ED  : 0.8009
+Best_accuracy    : 4.246, Best_norm_ED     : 0.8009
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"+580 m. Food and sweets," | "I 580m. Foud and shreeds, | 0.0583	False
+"the price you paid, a"   | the price you p aid, a    | 0.0357	False
+--------------------------------------------------------------------------------
+[20000/40000] Train loss: 0.01057, Valid loss: 1.69078, Elapsed_time: 4071.93862
+Current_accuracy : 4.883, Current_norm_ED  : 0.8111
+Best_accuracy    : 4.883, Best_norm_ED     : 0.8111
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+German troops in Britain. | "ernen troops in oriein.  | 0.1116	False
+a directive which comes pretty | a directive which comes pretty | 0.2644	True
+--------------------------------------------------------------------------------
+[30000/40000] Train loss: 0.00014, Valid loss: 1.81885, Elapsed_time: 6317.21037
+Current_accuracy : 4.671, Current_norm_ED  : 0.8103
+Best_accuracy    : 4.883, Best_norm_ED     : 0.8111
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+at any rate one circle in the | at any rale one cirele in the | 0.6864	False
+used beam-scales or hanging | used beam-scales or hamgtng | 0.1436	False
+--------------------------------------------------------------------------------
+[40000/40000] Train loss: 0.00010, Valid loss: 1.85248, Elapsed_time: 8589.55494
+Current_accuracy : 5.308, Current_norm_ED  : 0.8122
+Best_accuracy    : 5.308, Best_norm_ED     : 0.8122
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+I thought it prudent to let | I theught it prudeutt to let | 0.2371	False
+"Well, there are many reasons." | Webe, there are mang reaseus. | 0.2856	False
+--------------------------------------------------------------------------------

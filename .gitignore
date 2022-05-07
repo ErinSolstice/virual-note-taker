@@ -130,3 +130,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# data
+/easyOCR_train/trainer/all_data/
+/easyOCR_train/
+/trainer/all_data/
+/trainer/saved_models/

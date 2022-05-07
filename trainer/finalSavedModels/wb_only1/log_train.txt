@@ -1,0 +1,135 @@
+[20000/300000] Train loss: 0.12353, Valid loss: 1.67291, Elapsed_time: 4707.98535
+Current_accuracy : 5.732, Current_norm_ED  : 0.8205
+Best_accuracy    : 5.732, Best_norm_ED     : 0.8205
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+and kebaya.               | and kebaya.               | 0.5285	True
+"equipment, sheets and"   | "eguipment, sheeks and"   | 0.2453	False
+--------------------------------------------------------------------------------
+[40000/300000] Train loss: 0.00002, Valid loss: 1.76521, Elapsed_time: 9386.92983
+Current_accuracy : 5.839, Current_norm_ED  : 0.8206
+Best_accuracy    : 5.839, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+sky seemed to be deserted. | sky seemed to be ddeer ted. | 0.4423	False
+tion of the biggest problem which | tion of the biggest pnblen which | 0.5995	False
+--------------------------------------------------------------------------------
+[60000/300000] Train loss: 0.00001, Valid loss: 1.81615, Elapsed_time: 14061.83809
+Current_accuracy : 5.945, Current_norm_ED  : 0.8205
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+severed he sent down the line | severed he sent down the line | 0.6929	True
+"Then he said,"           | "Shen he said,"           | 0.6532	False
+--------------------------------------------------------------------------------
+[80000/300000] Train loss: 0.00001, Valid loss: 1.86122, Elapsed_time: 18735.52560
+Current_accuracy : 5.839, Current_norm_ED  : 0.8196
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+have to do their wood-    | rave to cdo their hekd.   | 0.1020	False
+There is only one way to  | There is only one way to  | 0.5391	True
+--------------------------------------------------------------------------------
+[100000/300000] Train loss: 0.00000, Valid loss: 1.88253, Elapsed_time: 23201.95396
+Current_accuracy : 5.839, Current_norm_ED  : 0.8198
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+thirty years younger and  | thirly yeers younger and  | 0.2558	False
+declared objective of more | dcclerea stjocuve of hare | 0.0973	False
+--------------------------------------------------------------------------------
+[120000/300000] Train loss: 0.00000, Valid loss: 1.91194, Elapsed_time: 28146.06456
+Current_accuracy : 5.626, Current_norm_ED  : 0.8191
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Mr. Delorme that we must  | ter. Delorme that we most | 0.6249	False
+The trench remained       | The trench remsined       | 0.4754	False
+--------------------------------------------------------------------------------
+[140000/300000] Train loss: 0.00000, Valid loss: 1.93559, Elapsed_time: 32917.93045
+Current_accuracy : 5.732, Current_norm_ED  : 0.8194
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+of a chestnut brown       | of a chestnnt lorokk      | 0.1670	False
+After much bargaining the | Aer ruch bergeiring the   | 0.3639	False
+--------------------------------------------------------------------------------
+[160000/300000] Train loss: 0.00000, Valid loss: 1.95783, Elapsed_time: 37655.84400
+Current_accuracy : 5.732, Current_norm_ED  : 0.8192
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+overturn them next time.  | averturn them nect tine.  | 0.4796	False
+to form a continuous film. | to form a continuous fitm. | 0.1804	False
+--------------------------------------------------------------------------------
+[180000/300000] Train loss: 0.00000, Valid loss: 1.96321, Elapsed_time: 42021.78966
+Current_accuracy : 5.626, Current_norm_ED  : 0.8191
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+the lace-makers practised. | the hre-makes practied.   | 0.0254	False
+cheeks were pale; and her eyes had | "chuots wars pale, and her eyes hat | 0.1179	False
+--------------------------------------------------------------------------------
+[200000/300000] Train loss: 0.00000, Valid loss: 1.97097, Elapsed_time: 46076.33718
+Current_accuracy : 5.732, Current_norm_ED  : 0.8188
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+that should have come with my | that should have come with my | 0.5378	True
+Washington yesterday that the | Washingtu yeaterdey that the | 0.1266	False
+--------------------------------------------------------------------------------
+[220000/300000] Train loss: 0.00000, Valid loss: 1.99270, Elapsed_time: 50097.50009
+Current_accuracy : 5.626, Current_norm_ED  : 0.8188
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+gardening and breezy      | gardening and breeey      | 0.5588	False
+"The reference to the world," | "The refleence of the world," | 0.3089	False
+--------------------------------------------------------------------------------
+[240000/300000] Train loss: 0.00000, Valid loss: 2.02029, Elapsed_time: 54114.45009
+Current_accuracy : 5.626, Current_norm_ED  : 0.8187
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+women. Endeavours         | sromen. ndeasouns         | 0.2125	False
+can only be used to a limited | can onley be msed toa limmited | 0.2325	False
+--------------------------------------------------------------------------------
+[260000/300000] Train loss: 0.00000, Valid loss: 1.98780, Elapsed_time: 58813.40700
+Current_accuracy : 5.626, Current_norm_ED  : 0.8186
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+pumped away. For some weeks | pumped avnay for same weeks | 0.0841	False
+"him a chance, old chap." | "him a chance, tod chap." | 0.1642	False
+--------------------------------------------------------------------------------
+[280000/300000] Train loss: 0.00000, Valid loss: 2.00979, Elapsed_time: 63105.09279
+Current_accuracy : 5.626, Current_norm_ED  : 0.8188
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+the lace-makers practised. | the hre-makes pratied.    | 0.0243	False
+Do you think you are?     | Do you thinte you are?    | 0.3595	False
+--------------------------------------------------------------------------------
+[300000/300000] Train loss: 0.00000, Valid loss: 2.04815, Elapsed_time: 67572.23204
+Current_accuracy : 5.626, Current_norm_ED  : 0.8184
+Best_accuracy    : 5.945, Best_norm_ED     : 0.8206
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+now seemed silent beyond it. | now seaned stlent bayond 1o. | 0.0719	False
+"France, Holland and Belgium." | "Tence, Holvard erd Belgun." | 0.1438	False
+--------------------------------------------------------------------------------

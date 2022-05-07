@@ -1,0 +1,20 @@
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['bel_train']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------
+dataset_root:    all_data	 dataset: bel_train
+sub-directory:	/bel_train	 num samples: 3000
+num total samples of bel_train: 3000 x 1.0 (total_data_usage_ratio) = 3000
+num samples of bel_train per batch: 32 x 1.0 (batch_ratio) = 32
+--------------------------------------------------------------------------------
+Total_batch_size: 32 = 32
+--------------------------------------------------------------------------------
+dataset_root:    all_data/bel_val_1	 dataset: /
+sub-directory:	/.	 num samples: 500
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+dataset_root: all_data
+opt.select_data: ['belval_train']
+opt.batch_ratio: ['1']
+--------------------------------------------------------------------------------

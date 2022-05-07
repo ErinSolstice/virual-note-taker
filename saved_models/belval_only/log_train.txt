@@ -1,0 +1,27 @@
+[20000/300000] Train loss: 0.48069, Valid loss: 6.67232, Elapsed_time: 2895.53371
+Current_accuracy : 0.200, Current_norm_ED  : 0.4030
+Best_accuracy    : 0.200, Best_norm_ED     : 0.4030
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+encyclopediast            | unrgolmpeulan'l           | 0.1190	False
+avos                      | ue                        | 0.3661	False
+--------------------------------------------------------------------------------
+[40000/300000] Train loss: 0.00003, Valid loss: 6.99074, Elapsed_time: 5868.56678
+Current_accuracy : 0.200, Current_norm_ED  : 0.4007
+Best_accuracy    : 0.200, Best_norm_ED     : 0.4030
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+philograph                | rhoyomyr                  | 0.3073	False
+noninformatively          | nonanfilmvating           | 0.0709	False
+--------------------------------------------------------------------------------
+[60000/300000] Train loss: 0.00003, Valid loss: 7.19103, Elapsed_time: 8856.83190
+Current_accuracy : 0.400, Current_norm_ED  : 0.4019
+Best_accuracy    : 0.400, Best_norm_ED     : 0.4030
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+bulletin's                | balbebwr-s                | 0.3704	False
+lecturee                  | li-gre                    | 0.4329	False
+--------------------------------------------------------------------------------

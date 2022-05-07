@@ -7,7 +7,7 @@ In the config file make sure the following variables are correct:
 - valid_data
 - train_data
 
-Make sure to download and unzip the all_data folder. The structure should be as follows.
+Make sure to [download](https://lsumail2-my.sharepoint.com/:u:/g/personal/pherke1_lsu_edu/EQnr-ma5DARNg_CRG6odW9cBkCI_BlejcSrRlQVlW8kCow?e=Fiq9CB) and unzip the all_data folder. The structure should be as follows.
 trainer
 └── all_data
     ├── train_data
@@ -15,6 +15,10 @@ trainer
     └── ...
 
 Follow the instructions on [EasyOCR](https://github.com/JaidedAI/EasyOCR) to set up the appropriate packages.
+
+## Saving your Trained Model
+
+Add to the finalSavedModels folder a folder containing your model's log files, final .pth file, and both the .pth files starting with best.
 
 
 ## How to use your custom model

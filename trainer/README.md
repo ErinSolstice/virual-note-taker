@@ -7,14 +7,14 @@ In the config file make sure the following variables are correct:
 - valid_data
 - train_data
 
-Make sure to unzip the all_data folder. The structure should be as follows.
+Make sure to download and unzip the all_data folder. The structure should be as follows.
 trainer
 └── all_data
-    ├── trian_data
+    ├── train_data
     ├── valid_data
     └── ...
 
-Follow the instructions on [EasyOCR](https://github.com/JaidedAI/EasyOCR) to set up the appropiate packages.
+Follow the instructions on [EasyOCR](https://github.com/JaidedAI/EasyOCR) to set up the appropriate packages.
 
 
 ## How to use your custom model

@@ -6,7 +6,7 @@ from fpdf import FPDF
 
 reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
 
-img = cv2.imread('sampleImages\\test.png')
+img = cv2.imread('sampleImages\\ItWorks.png')
 results = reader.readtext(img)
 
 
@@ -74,7 +74,7 @@ for x in range(i):
     pdf.cell((results[x][0][1][0] - results[x][0][0][0])*scale, (results[x][0][2][1] - results[x][0][0][1])*scale,
              txt=results[x][1])
 
-pdf.output('test_result_scale2.pdf')
+pdf.output('ItWorks.pdf')
 # show the output image
 cv2.imshow('image', cloneImg)
 cv2.waitKey(0)

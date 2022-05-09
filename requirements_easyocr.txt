@@ -4,7 +4,7 @@
 ca-certificates=2022.3.29=haa95532_0
 certifi=2021.10.8=py39haa95532_2
 charset-normalizer=2.0.12=pypi_0
-easyocr=1.4.1=pypi_0
+easyocr=1.4.1=pypi_
 idna=3.3=pypi_0
 imageio=2.9.0=pypi_0
 networkx=2.7.1=pypi_0

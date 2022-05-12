@@ -24,12 +24,17 @@ def preprocess(img: cv2.mat_wrapper.Mat) -> cv2.mat_wrapper.Mat:
     cv2.GaussianBlur(img_copy, (3, 3), 1, img_copy, 1)
 
     # canny edge
-    cv2.Canny(img_copy, 1, 1, cv2.RETR_EXTERNAL)
+    cv2.Canny(img_copy, 100, 200)
 
     # dilate (and maybe erode)
     cv2.dilate(img_copy, (3,3), img_copy)
 
+    # get contours
+    contours, hierarchy = cv2.findContours(img_copy, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
+
     # take the biggest rectangle of contours as the ROI
+
+
     # deskew and crop original image to squared roi
     # return original img
     return img

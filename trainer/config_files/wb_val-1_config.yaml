@@ -18,12 +18,12 @@ rho: 0.95
 eps: 0.00000001
 grad_clip: 5
 #Data processing
-select_data: 'wb_train' # this is dataset folder in train_data
+select_data: 'wb_train' # this is dataset folder in wb_train
 batch_ratio: '1' 
 total_data_usage_ratio: 1.0
 batch_max_length: 34 
-imgH: 64
-imgW: 600
+imgH: 300
+imgW: 300
 rgb: False
 contrast_adjust: False
 sensitive: True

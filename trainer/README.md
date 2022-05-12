@@ -7,11 +7,14 @@ In the config file make sure the following variables are correct:
 - valid_data
 - train_data
 
-Make sure to [download](https://lsumail2-my.sharepoint.com/:u:/g/personal/pherke1_lsu_edu/EQnr-ma5DARNg_CRG6odW9cBkCI_BlejcSrRlQVlW8kCow?e=Fiq9CB) and unzip the all_data folder. The structure should be as follows.
-trainer
-└── all_data
-    ├── train_data
-    ├── valid_data
+Make sure to [download](https://lsumail2-my.sharepoint.com/:u:/g/personal/pherke1_lsu_edu/EQnr-ma5DARNg_CRG6odW9cBkCI_BlejcSrRlQVlW8kCow?e=Fiq9CB) and unzip the all_data folder. The structure should be as follows.<br>
+trainer<br>
+└── all_data<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    ├── train_data<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+    ├── valid_data<br>
+    &nbsp;&nbsp;&nbsp;&nbsp;
     └── ...
 
 Follow the instructions on [EasyOCR](https://github.com/JaidedAI/EasyOCR) to set up the appropriate packages.

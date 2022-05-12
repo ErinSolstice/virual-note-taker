@@ -3,35 +3,35 @@ import os
 import numpy as np
 
 
-def stackImages(scale, imgArray):
-    rows = len(imgArray)
-    cols = len(imgArray[0])
-    rowsAvailable = isinstance(imgArray[0], list)
-    width = imgArray[0][0].shape[1]
-    height = imgArray[0][0].shape[0]
+def stackImages(scale, img_array):
+    rows = len(img_array)
+    cols = len(img_array[0])
+    rowsAvailable = isinstance(img_array[0], list)
+    width = img_array[0][0].shape[1]
+    height = img_array[0][0].shape[0]
     if rowsAvailable:
         for x in range(0, rows):
             for y in range(0, cols):
-                if imgArray[x][y].shape[:2] == imgArray[0][0].shape[:2]:
-                    imgArray[x][y] = cv2.resize(imgArray[x][y], (0, 0), None, scale, scale)
+                if img_array[x][y].shape[:2] == img_array[0][0].shape[:2]:
+                    img_array[x][y] = cv2.resize(img_array[x][y], (0, 0), None, scale, scale)
                 else:
-                    imgArray[x][y] = cv2.resize(imgArray[x][y], (imgArray[0][0].shape[1], imgArray[0][0].shape[0]),
-                                                None, scale, scale)
-                if len(imgArray[x][y].shape) == 2: imgArray[x][y] = cv2.cvtColor(imgArray[x][y], cv2.COLOR_GRAY2BGR)
+                    img_array[x][y] = cv2.resize(img_array[x][y], (img_array[0][0].shape[1], img_array[0][0].shape[0]),
+                                                 None, scale, scale)
+                if len(img_array[x][y].shape) == 2: img_array[x][y] = cv2.cvtColor(img_array[x][y], cv2.COLOR_GRAY2BGR)
         imageBlank = np.zeros((height, width, 3), np.uint8)
         hor = [imageBlank] * rows
         hor_con = [imageBlank] * rows
         for x in range(0, rows):
-            hor[x] = np.hstack(imgArray[x])
+            hor[x] = np.hstack(img_array[x])
         ver = np.vstack(hor)
     else:
         for x in range(0, rows):
-            if imgArray[x].shape[:2] == imgArray[0].shape[:2]:
-                imgArray[x] = cv2.resize(imgArray[x], (0, 0), None, scale, scale)
+            if img_array[x].shape[:2] == img_array[0].shape[:2]:
+                img_array[x] = cv2.resize(img_array[x], (0, 0), None, scale, scale)
             else:
-                imgArray[x] = cv2.resize(imgArray[x], (imgArray[0].shape[1], imgArray[0].shape[0]), None, scale, scale)
-            if len(imgArray[x].shape) == 2: imgArray[x] = cv2.cvtColor(imgArray[x], cv2.COLOR_GRAY2BGR)
-        hor = np.hstack(imgArray)
+                img_array[x] = cv2.resize(img_array[x], (img_array[0].shape[1], img_array[0].shape[0]), None, scale, scale)
+            if len(img_array[x].shape) == 2: img_array[x] = cv2.cvtColor(img_array[x], cv2.COLOR_GRAY2BGR)
+        hor = np.hstack(img_array)
         ver = hor
     return ver
 
@@ -96,14 +96,8 @@ def preprocess(img: cv2.mat_wrapper.Mat, target_height=500, target_width=500, bl
     img_dil = cv2.dilate(img_canny, kernel, iterations=2)
     img_ero = cv2.erode(img_dil, kernel, iterations=1)
 
-    # convert to 8 bit
-    #img = img_ero
-    #cv2.convertScaleAbs(old_img_copy, img_copy)
-    #print(type(old_img_copy), type(img_copy), old_img_copy.shape, img_copy.shape)
-
     # get contours
     contours, hierarchy = cv2.findContours(img_ero, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
-    # all_contours, all_hierarchy = cv2.findContours(img_ero, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
 
     # take the biggest rectangle of contours as the ROI
     biggest = np.array([])
@@ -128,24 +122,12 @@ def preprocess(img: cv2.mat_wrapper.Mat, target_height=500, target_width=500, bl
     if biggest.size != 0:
         img_warp = get_warp(img_resize, biggest, target_height, target_width)
         imageArray[-1] = img_warp
-        # imageArray.append(img_warp)
-        # imageArray = ([img,imgThres],
-        #           [imgContour,img_warped])
-        #print(imageArray[0])
-        #print("warp", img_warp.shape)
-        #imageArray[0] += img_warp
-        # cv2.imshow("ImageWarped", img_warp)
-        #cv2.waitKey(0)
     else:
         print("Couldn't find whiteboard")
-        # imageArray = ([img, imgThres],
-        #               [img, img])
-        #imageArray[0] += [img_contour, img]
 
-    stackedImages = stackImages(0.6, imageArray)
     if show_all:
+        stackedImages = stackImages(0.6, imageArray)
         cv2.imshow("WorkFlow", stackedImages)
-    #cv2.waitKey(0)
 
     # return warped and cropped img
     return img_copy
@@ -156,6 +138,7 @@ def process_img_file(path):
 
 
 if __name__ == "__main__":
+
     img_path = "sampleImages/whiteboard.png"
     tune_window = "Tuning"
     cv2.namedWindow(tune_window, cv2.WINDOW_NORMAL)
@@ -173,22 +156,6 @@ if __name__ == "__main__":
 
     def null(x):
         pass
-
-    def trackbar_callback():
-        print("update")
-        iw = cv2.getTrackbarPos(iw_name, tune_window)
-        ih = cv2.getTrackbarPos(ih_name, tune_window)
-        bk = cv2.getTrackbarPos(bk_name, tune_window)
-        bk = bk - 1 if bk % 2 == 0 else bk
-        print("bk", bk)
-        bs = cv2.getTrackbarPos(bs_name, tune_window)
-        ct1 = cv2.getTrackbarPos(ct1_name, tune_window)
-        ct2 = cv2.getTrackbarPos(ct2_name, tune_window)
-        dek = cv2.getTrackbarPos(dek_name, tune_window)
-        dek = dek - 1 if dek % 2 == 0 else dek
-        wba = cv2.getTrackbarPos(wba_name, tune_window)
-        clw = cv2.getTrackbarPos(clw_name, tune_window)
-        preprocess(img, iw, ih, bk, bs, ct1, ct2, dek, wba, clw, True)
 
     iw_name = 'image_width'
     cv2.createTrackbar(iw_name, tune_window, 500, 1000, null)
@@ -217,7 +184,6 @@ if __name__ == "__main__":
     clw_name = 'contour_line_width'
     cv2.createTrackbar(clw_name, tune_window, 2, 20, null)
 
-    trackbar_callback()
     while True:
         print("update")
         iw = cv2.getTrackbarPos(iw_name, tune_window)
@@ -231,7 +197,7 @@ if __name__ == "__main__":
         dek = dek - 1 if dek % 2 == 0 else dek
         wba = cv2.getTrackbarPos(wba_name, tune_window)
         clw = cv2.getTrackbarPos(clw_name, tune_window)
-        preprocess(img, iw, ih, bk, bs, ct1, ct2, dek, wba, clw)
+        preprocess(img, iw, ih, bk, bs, ct1, ct2, dek, wba, clw, True)
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 

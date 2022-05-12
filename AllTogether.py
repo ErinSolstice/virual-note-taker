@@ -12,7 +12,9 @@ img_name = "sampleImages/dataset"
 img_type = ".png"
 img = cv2.imread(img_name+img_type)
 prepro_img = preprocessing.preprocess(img)
-img_copy = img.copy()
+cv2.imshow(img)
+cv2.imshow(prepro_img)
+# img_copy = img.copy()
 
 reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
 # Patrick Update with New Model

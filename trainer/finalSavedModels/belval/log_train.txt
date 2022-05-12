@@ -1,0 +1,135 @@
+[20000/300000] Train loss: 0.54841, Valid loss: 7.63819, Elapsed_time: 1285.17892
+Current_accuracy : 0.000, Current_norm_ED  : 0.3692
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3692
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+bohemias cork-heeled      | tatamr col-thied          | 0.0536	False
+shiatsu intercrural       | shlatis intercrarl        | 0.0847	False
+--------------------------------------------------------------------------------
+[40000/300000] Train loss: 0.00003, Valid loss: 8.24214, Elapsed_time: 2575.83835
+Current_accuracy : 0.000, Current_norm_ED  : 0.3744
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+luminate piepowder        | Temanes piepauier         | 0.1079	False
+Hudson manganosiderite    | Wiulonn maconyarstre      | 0.0705	False
+--------------------------------------------------------------------------------
+[60000/300000] Train loss: 0.00001, Valid loss: 8.50197, Elapsed_time: 3863.07910
+Current_accuracy : 0.000, Current_norm_ED  : 0.3708
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+movie's englory           | wai'es canglury           | 0.0041	False
+Bitolj hearty             | seatty bacby              | 0.4809	False
+--------------------------------------------------------------------------------
+[80000/300000] Train loss: 0.00001, Valid loss: 8.66157, Elapsed_time: 5157.35244
+Current_accuracy : 0.000, Current_norm_ED  : 0.3720
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+branchless anthracitization | teramful antharlbiudes    | 0.0208	False
+Macrophoma tricolette     | Jeoantion rillhe          | 0.0855	False
+--------------------------------------------------------------------------------
+[100000/300000] Train loss: 0.00001, Valid loss: 8.74735, Elapsed_time: 6446.50713
+Current_accuracy : 0.000, Current_norm_ED  : 0.3719
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+nondrinker Dashahara      | endinha tarseiton         | 0.1506	False
+tobacconing chimar        | biascoing SPmmiar         | 0.0103	False
+--------------------------------------------------------------------------------
+[120000/300000] Train loss: 0.00001, Valid loss: 8.90522, Elapsed_time: 7737.77110
+Current_accuracy : 0.000, Current_norm_ED  : 0.3723
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+latreutic availingly      | Cabnoile aldinyy          | 0.1886	False
+Honolulu heartlet         | shirauils acantit         | 0.0857	False
+--------------------------------------------------------------------------------
+[140000/300000] Train loss: 0.00000, Valid loss: 8.89976, Elapsed_time: 9031.13592
+Current_accuracy : 0.000, Current_norm_ED  : 0.3730
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Timmonsville Setophaga    | srmenonwaites setoptangang | 0.0166	False
+convexes Duclos           | chmweies Mluisckoos       | 0.0725	False
+--------------------------------------------------------------------------------
+[160000/300000] Train loss: 0.00000, Valid loss: 9.06846, Elapsed_time: 10328.61834
+Current_accuracy : 0.000, Current_norm_ED  : 0.3714
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+bellybuttons unfaithful   | yefylothorse nifathifie   | 0.0258	False
+five-eighth ill-yoked     | fone-egnlf e -fpetod      | 0.0581	False
+--------------------------------------------------------------------------------
+[180000/300000] Train loss: 0.00000, Valid loss: 9.10616, Elapsed_time: 11620.47715
+Current_accuracy : 0.000, Current_norm_ED  : 0.3719
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+extrorsal ecrasite        | lrnsi rosito              | 0.3160	False
+overblowing UCSC          | onerblowen                | 0.1470	False
+--------------------------------------------------------------------------------
+[200000/300000] Train loss: 0.00000, Valid loss: 9.12094, Elapsed_time: 12916.11585
+Current_accuracy : 0.000, Current_norm_ED  : 0.3717
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+accurately siestas        | acoaralily cestos         | 0.3039	False
+overeating Goasila        | arafile gphesates         | 0.0175	False
+--------------------------------------------------------------------------------
+[220000/300000] Train loss: 0.00000, Valid loss: 9.20108, Elapsed_time: 14212.88684
+Current_accuracy : 0.000, Current_norm_ED  : 0.3716
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+hurrahing thermatologic   | hurating trermrcailiily   | 0.0336	False
+playstead commaes         | fhoyliad timagu           | 0.0198	False
+--------------------------------------------------------------------------------
+[240000/300000] Train loss: 0.00000, Valid loss: 9.26752, Elapsed_time: 15506.86173
+Current_accuracy : 0.000, Current_norm_ED  : 0.3722
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+forevision unspecious     | toeping umipeas           | 0.0269	False
+chiding aberrative        | dhding auterabile         | 0.2488	False
+--------------------------------------------------------------------------------
+[260000/300000] Train loss: 0.00000, Valid loss: 9.29160, Elapsed_time: 16800.41242
+Current_accuracy : 0.000, Current_norm_ED  : 0.3707
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Caretta arriero           | Entla oO                  | 0.3628	False
+ataxophemia syzygial      | otrcaphemi esesespha      | 0.0178	False
+--------------------------------------------------------------------------------
+[280000/300000] Train loss: 0.00000, Valid loss: 9.36094, Elapsed_time: 18095.55151
+Current_accuracy : 0.000, Current_norm_ED  : 0.3707
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Sherilyn mockfully        | zoriy onedlanrdy          | 0.0535	False
+emancipatations tsere     | comsinail sen             | 0.1299	False
+--------------------------------------------------------------------------------
+[300000/300000] Train loss: 0.00000, Valid loss: 9.35533, Elapsed_time: 19389.90337
+Current_accuracy : 0.000, Current_norm_ED  : 0.3719
+Best_accuracy    : 0.000, Best_norm_ED     : 0.3744
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+centripetence superbelievable | anirgyira ioxtrnica       | 0.0159	False
+shades Hibunci            | ades frtsias              | 0.0704	False
+--------------------------------------------------------------------------------

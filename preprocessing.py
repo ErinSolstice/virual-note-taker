@@ -131,16 +131,19 @@ def preprocess(img: cv2.mat_wrapper.Mat, target_width=500, blur_ksize=5, blur_si
 
     # deskew and crop original image to squared roi
     img_warp = img.copy()
-    imageArray = ([img_resize, img_gray, img_blur, img_canny, img_dil, img_ero, img_contour, img_contour_all, img_warp])
+    imageArray1 = [img_resize, img_gray, img_blur, img_canny, img_dil, img_ero]
+    imageArray2 = [img_contour_all, img_contour, img_warp]
     if biggest.size != 0:
         img_warp = get_warp(img, biggest, scale_factor)
-        imageArray[-1] = img_warp
+        imageArray2[-1] = img_warp
     else:
         print("Couldn't find whiteboard")
 
     if show_all:
-        stackedImages = stackImages(0.6, imageArray)
-        cv2.imshow("WorkFlow", stackedImages)
+        stackedImages1 = stackImages(0.6, imageArray1)
+        stackedImages2 = stackImages(0.6, imageArray2)
+        cv2.imshow("WorkFlow", stackedImages1)
+        cv2.imshow("WorkFlow cont.", stackedImages2)
 
     # return warped and cropped img
     return img_warp
@@ -152,7 +155,7 @@ def process_img_file(path):
 
 if __name__ == "__main__":
 
-    img_path = "sampleImages/m9k6y5tvum6x.jpg"
+    img_path = "sampleImages/dataset.png"
     tune_window = "Tuning"
     cv2.namedWindow(tune_window, cv2.WINDOW_NORMAL)
     img = cv2.imread(img_path)

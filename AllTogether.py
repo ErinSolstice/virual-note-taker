@@ -6,31 +6,24 @@ import numpy as np
 from fpdf import FPDF
 from autocorrect import Speller
 
+import preprocessing
 
 img_name = "sampleImages/slide"
 img_type = ".png"
 img = cv2.imread(img_name+img_type)
-img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
-img_blur = cv2.GaussianBlur(img_grey, (3, 3), 0)
-img_canny = cv2.Canny(img_blur, 100, 200)
-img_dil = cv2.dilate(img_canny, (3, 3))
-contours, hierarchy = cv2.findContours(img_dil, cv2.RETR_TREE, cv2.CHAIN_APPROX_NONE)
-img_copy = img.copy()
-# cv2.imshow("img", img)
-# cv2.imshow("img_grey", img_grey)
-# cv2.imshow("img_blur", img_blur)
-# cv2.imshow("img_canny", img_canny)
-# cv2.imshow("img_dil", img_dil)
-cv2.drawContours(image=img_copy, contours=contours, contourIdx=-1, color=(0, 255, 0), thickness=1, lineType=cv2.LINE_AA)
-# cv2.imshow("img_contour", img_copy)
-cv2.waitKey(0)
+prepro_img = preprocessing.preprocess(img)
+cv2.imshow(img)
+cv2.imshow(prepro_img)
+# img_copy = img.copy()
 
 reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
 # Patrick Update with New Model
 
 # Use OCR model to extract text
-results = reader.readtext(img_copy)
-
+# Doesn't use preprocessing
+# results = reader.readtext(img_copy)
+# Uses preprocessing
+results = reader.readtext(prepro_img)
 
 # Cleanup Function
 def cleanup_text(text):

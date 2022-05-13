@@ -13,12 +13,13 @@ In the config file make sure the following variables are correct:
 - valid_data
 - train_data
 
-Make sure to [download](https://lsumail2-my.sharepoint.com/:u:/g/personal/pherke1_lsu_edu/EQnr-ma5DARNg_CRG6odW9cBkCI_BlejcSrRlQVlW8kCow?e=Fiq9CB) and unzip the all_data folder. The structure should be as follows.
+The data used to train the models is included in the folder [download](https://lsumail2-my.sharepoint.com/:f:/g/personal/pherke1_lsu_edu/EskJvnoZlSlIoJm5iVsxUGsBzxwFyjd8pEe__ThRipXxbg?e=q4rohw) The structure of each zipped data folder should be placed as follows in the main repository.
 trainer
 └── all_data
     ├── train_data
-    ├── valid_data
-    └── ...
+    ├── valid_data-1
+    ├── valid_data-2
+    └── test_data
 
 Follow the instructions on [EasyOCR](https://github.com/JaidedAI/EasyOCR) to set up the appropriate packages.
 

@@ -132,7 +132,16 @@ dmypy.json
 .pyre/
 
 # data
-/easyOCR_train/trainer/all_data/
-/easyOCR_train/
-/trainer/all_data/
+/trainer/all_data/*
+!/trainer/all_data/autoGen.ipynb
+!/trainer/all_data/checkingSize.ipynb
+!/trainer/all_data/restructure.ipynb
+!/trainer/all_data/regs
+
+# models
 /trainer/saved_models/
+/trainer/finalSavedModelsAll/
+
+
+application/*
+!application/language/

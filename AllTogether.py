@@ -7,7 +7,7 @@ from fpdf import FPDF
 from autocorrect import Speller
 
 
-img_name = "sampleImages/dataset"
+img_name = "sampleImages/slide"
 img_type = ".png"
 img = cv2.imread(img_name+img_type)
 img_grey = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)

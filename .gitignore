@@ -136,5 +136,4 @@ dmypy.json
 /easyOCR_train/
 /trainer/all_data/
 /trainer/saved_models/
-/trainer/finalSavedModels/
 /trainer/finalSavedModelsAll/

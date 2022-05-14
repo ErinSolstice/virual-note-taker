@@ -40,6 +40,8 @@ cv2.imshow('prepro_img', prepro_img)
 cv2.waitKey(0)
 
 # Comment out all the readers except the one with the desired recog_network
+# If using one of the models with a recog network specified
+# you need to follow the steps for using a custom model in the README.md
 # this needs to run only once to load the model into memory
 # base model
 reader = easyocr.Reader(['en'])

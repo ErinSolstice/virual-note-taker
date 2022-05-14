@@ -39,10 +39,10 @@ The data used to train the models is included in the folder [download](https://l
 
 trainer  
 └── all_data  
-  ├── train_data  
-  ├── valid_data-1  
-  ├── valid_data-2  
-  └── test_data
+    ├── train_data  
+    ├── valid_data-1  
+    ├── valid_data-2  
+    └── test_data
 
 To test the accuracy of the model use test_orig.py and pass the config file as a command line option.
 `python test_orig.py --config testing_config_files/test_wb_opts.yaml`

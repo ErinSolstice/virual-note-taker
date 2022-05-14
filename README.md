@@ -46,7 +46,7 @@ trainer
     └── test_data
 ```
 
-To test the accuracy of the model use test_orig.py and pass the config file as a command line option.
+To test the accuracy of the model use test_orig.py and pass the config file as a command line option.  
 `python test_orig.py --config testing_config_files/test_wb_opts.yaml`
 
 ## Saving your Trained Model

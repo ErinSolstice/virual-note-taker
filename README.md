@@ -1,14 +1,14 @@
 # virtual-note-taker
 ## Installing dependencies
 
-Package was developed using python 3.9.x and the Anaconda distribution.
+Package was developed using the Anaconda distribution of python 3.9.
 
 In a fresh virtual environment run the following commands.
 - install pytorch using instrucitons at [pytorch.org](https://pytorch.org/)
 - `pip install easyocr`
 - `pip install -r requirements.txt`
 
-If you want to do any processing on the whiteboard data.
+If you want to do any processing on the IAM-onDB data.
 - `pip install -r requirementsDataProcess.txt`
 - install [ImageMagick](https://imagemagick.org/index.php)
 
@@ -16,15 +16,13 @@ If you want to generate your own synthetic data follow the instructions at [Text
 
 
 ## Running the virtual notetaker
-To run the virtual note taker use either AllTogether.ipynb in jupyter notebooks or run AllTogether.py.
+To run the virtual note taker use either AllTogether.ipynb with jupyter notebooks or run AllTogether.py.
 
-If using AllTogether.py pass the path to the image you wish to perform OCR on as a command line argument.
-
+If using AllTogether.py pass the path to the image you wish to perform OCR on as a command line argument.  
 `python AllTogether.py --path sampleImages/slide.png`
 
 
 ## EasyOCR trainer
-Follow the instructions on [EasyOCR](https://github.com/JaidedAI/EasyOCR) to set up the appropriate packages.
 
 Use `trainer.ipynb` with yaml config in `config_files` folder
 
@@ -49,11 +47,11 @@ trainer
 To test the accuracy of the model use test_orig.py and pass the config file as a command line option.  
 `python test_orig.py --config testing_config_files/test_wb_opts.yaml`
 
-## Saving your Trained Model
+### Saving your Trained Model
 
-Add to the finalSavedModels folder a folder containing your model's log_dataset.txt, log_train.txt, opt.txt, best_accuracy.pth, and best_normED.pth files.
+Add to the finalSavedModels folder a folder containing your model's log_dataset.txt, log_train.txt, opt.txt, best_accuracy.pth, and best_norm_ED.pth files.
 
-## How to use your custom model
+### How to use your custom model
 
 To use your own recognition model, you need the three files from the open-source or web-based approach. These three files have to share the same name (i.e. `yourmodel.pth`, `yourmodel.yaml`, `yourmodel.py`) that you will then use to call your model with in the EasyOCR API.
 

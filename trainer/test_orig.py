@@ -2,6 +2,7 @@ import os
 import time
 import string
 import argparse
+import yaml
 import re
 
 import torch
@@ -115,7 +116,7 @@ def validation(model, criterion, evaluation_loader, converter, opt):
                 preds_index = preds_index.view(-1)
             else:
                 _, preds_index = preds.max(2)
-            preds_str = converter.decode(preds_index.data, preds_size.data)
+            preds_str = converter.decode_greedy(preds_index.data, preds_size.data)
         
         else:
             preds = model(image, text_for_pred, is_train=False)
@@ -243,11 +244,12 @@ def test(opt):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--eval_data', required=True, help='path to evaluation dataset')
+    parser.add_argument('--config', required=False, help='yaml config file')
+    parser.add_argument('--eval_data', required=False, help='path to evaluation dataset')
     parser.add_argument('--benchmark_all_eval', action='store_true', help='evaluate 10 benchmark evaluation datasets')
     parser.add_argument('--workers', type=int, help='number of data loading workers', default=4)
     parser.add_argument('--batch_size', type=int, default=192, help='input batch size')
-    parser.add_argument('--saved_model', required=True, help="path to saved_model to evaluation")
+    parser.add_argument('--saved_model', required=False, help="path to saved_model to evaluation")
     """ Data processing """
     parser.add_argument('--batch_max_length', type=int, default=25, help='maximum-label-length')
     parser.add_argument('--imgH', type=int, default=32, help='the height of the input image')
@@ -259,10 +261,10 @@ if __name__ == '__main__':
     parser.add_argument('--data_filtering_off', action='store_true', help='for data_filtering_off mode')
     parser.add_argument('--baiduCTC', action='store_true', help='for data_filtering_off mode')
     """ Model Architecture """
-    parser.add_argument('--Transformation', type=str, required=True, help='Transformation stage. None|TPS')
-    parser.add_argument('--FeatureExtraction', type=str, required=True, help='FeatureExtraction stage. VGG|RCNN|ResNet')
-    parser.add_argument('--SequenceModeling', type=str, required=True, help='SequenceModeling stage. None|BiLSTM')
-    parser.add_argument('--Prediction', type=str, required=True, help='Prediction stage. CTC|Attn')
+    parser.add_argument('--Transformation', type=str, required=False, help='Transformation stage. None|TPS')
+    parser.add_argument('--FeatureExtraction', type=str, required=False, help='FeatureExtraction stage. VGG|RCNN|ResNet')
+    parser.add_argument('--SequenceModeling', type=str, required=False, help='SequenceModeling stage. None|BiLSTM')
+    parser.add_argument('--Prediction', type=str, required=False, help='Prediction stage. CTC|Attn')
     parser.add_argument('--num_fiducial', type=int, default=20, help='number of fiducial points of TPS-STN')
     parser.add_argument('--input_channel', type=int, default=1, help='the number of input channel of Feature extractor')
     parser.add_argument('--output_channel', type=int, default=512,
@@ -270,11 +272,22 @@ if __name__ == '__main__':
     parser.add_argument('--hidden_size', type=int, default=256, help='the size of the LSTM hidden state')
 
     opt = parser.parse_args()
+    
+    args = vars(opt)
+    with open(opt.config, 'r', encoding="utf8") as stream:
+        opt = yaml.safe_load(stream)
+    args.update(opt)
+    from argparse import Namespace
+    opt = Namespace(**args)
+    opt.character = opt.number + opt.symbol + opt.lang_char
+    print(opt)
 
     """ vocab / character number configuration """
-    if opt.sensitive:
-        opt.character = string.printable[:-6]  # same with ASTER setting (use 94 char).
+#    if opt.sensitive:
+#        opt.character = string.printable[:-6]  # same with ASTER setting (use 94 char).
 
+    print(opt.character)
+    
     cudnn.benchmark = True
     cudnn.deterministic = True
     opt.num_gpu = torch.cuda.device_count()

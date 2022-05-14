@@ -5,15 +5,23 @@ import easyocr
 import numpy as np
 from fpdf import FPDF
 from autocorrect import Speller
-
 import preprocessing
 
-img_name = "sampleImages/dataset"
+# Change img_name to image path without the file type extension
+img_name = "sampleImages/slide"
+
+# Change img_type to image type .xxxx extension
 img_type = ".png"
+
 img = cv2.imread(img_name+img_type)
-prepro_img = preprocessing.preprocess(img)
-cv2.imshow(img)
-cv2.imshow(prepro_img)
+
+# Uncomment if cropping is needed
+# prepro_img = preprocessing.preprocess(img)
+
+# Uncomment if no cropping is needed
+prepro_img = img
+# cv2.imshow(img)
+# cv2.imshow(prepro_img)
 # img_copy = img.copy()
 
 reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
@@ -107,4 +115,4 @@ for x in range(i):
              txt=spell(results[x][1]))  # Uncomment for spell check
 
 # Save output PDF
-pdf.output(img_name + '2.pdf')
+pdf.output(img_name + '.pdf')

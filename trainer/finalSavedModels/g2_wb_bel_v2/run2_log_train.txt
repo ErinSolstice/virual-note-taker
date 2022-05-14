@@ -1,0 +1,144 @@
+[2000/300000] Train loss: 0.00002, Valid loss: 3.46504, Elapsed_time: 588.81650
+Current_accuracy : 7.949, Current_norm_ED  : 0.7348
+Best_accuracy    : 7.949, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+another for thirty gallons of | "andthera foc thil, galloms of | 0.0596	False
+These two terms are frequently | Thea tas teoms are feqcently | 0.3542	False
+--------------------------------------------------------------------------------
+[4000/300000] Train loss: 0.00002, Valid loss: 3.51656, Elapsed_time: 1048.68190
+Current_accuracy : 8.108, Current_norm_ED  : 0.7346
+Best_accuracy    : 8.108, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+it all together. The Caxtons | it all logether. Tha Cartons | 0.2297	False
+alphenic                  | alphenic                  | 0.6511	True
+--------------------------------------------------------------------------------
+[6000/300000] Train loss: 0.00002, Valid loss: 3.54983, Elapsed_time: 1491.65504
+Current_accuracy : 8.029, Current_norm_ED  : 0.7335
+Best_accuracy    : 8.108, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Niagara. He has the crowd | Mingana. He thas the crond | 0.1593	False
+Guianan                   | caiongon lperrrd          | 0.0010	False
+--------------------------------------------------------------------------------
+[8000/300000] Train loss: 0.00001, Valid loss: 3.51145, Elapsed_time: 1938.66324
+Current_accuracy : 8.029, Current_norm_ED  : 0.7342
+Best_accuracy    : 8.108, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Man of sympathy. One      | Han of yympathy. Cne      | 0.4470	False
+live and accept all the bitterness | lin ond ancepf ll the 5itemess | 0.5440	False
+--------------------------------------------------------------------------------
+[10000/300000] Train loss: 0.00001, Valid loss: 3.54101, Elapsed_time: 2383.87286
+Current_accuracy : 8.188, Current_norm_ED  : 0.7341
+Best_accuracy    : 8.188, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"tively witty or dull, good" | Hicely asitty on dull, good" | 0.0943	False
+also in decline.          | als0 in decline.          | 0.6646	False
+--------------------------------------------------------------------------------
+[12000/300000] Train loss: 0.00001, Valid loss: 3.52270, Elapsed_time: 2841.41225
+Current_accuracy : 8.029, Current_norm_ED  : 0.7346
+Best_accuracy    : 8.188, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+the valour of Katanga soldiers. | the valor of latanga seldiws. | 0.6272	False
+and ending and ending.    | ard ending and ending.    | 0.5027	False
+--------------------------------------------------------------------------------
+[14000/300000] Train loss: 0.00001, Valid loss: 3.55121, Elapsed_time: 3294.50429
+Current_accuracy : 8.029, Current_norm_ED  : 0.7344
+Best_accuracy    : 8.188, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"competition, but"        | competsidion, but         | 0.3405	False
+you rely on a few notes   | you rely on a fw nots     | 0.2723	False
+--------------------------------------------------------------------------------
+[16000/300000] Train loss: 0.00001, Valid loss: 3.59630, Elapsed_time: 3750.17276
+Current_accuracy : 8.188, Current_norm_ED  : 0.7340
+Best_accuracy    : 8.188, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+with two words to the     | with tuo words to the     | 0.4547	False
+nephropore                | nephro fore               | 0.3899	False
+--------------------------------------------------------------------------------
+[18000/300000] Train loss: 0.00001, Valid loss: 3.55629, Elapsed_time: 4195.72853
+Current_accuracy : 7.949, Current_norm_ED  : 0.7342
+Best_accuracy    : 8.188, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Serena discovered was that she | Sezena dicoencd was tht she | 0.0605	False
+urve will be distorted if activity | cune mill be distorted if activnty" | 0.3371	False
+--------------------------------------------------------------------------------
+[20000/300000] Train loss: 0.00001, Valid loss: 3.58163, Elapsed_time: 4648.21314
+Current_accuracy : 8.267, Current_norm_ED  : 0.7340
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+lamp-lined                | lamp- lned                | 0.3672	False
+readdresses               | spawneablressisc          | 0.0161	False
+--------------------------------------------------------------------------------
+[22000/300000] Train loss: 0.00001, Valid loss: 3.72282, Elapsed_time: 5107.96742
+Current_accuracy : 7.870, Current_norm_ED  : 0.7336
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+IPY                       | uonhed Bnggrp             | 0.0678	False
+Lucian                    | wicl houn                 | 0.0364	False
+--------------------------------------------------------------------------------
+[24000/300000] Train loss: 0.00001, Valid loss: 3.61202, Elapsed_time: 5571.13863
+Current_accuracy : 7.949, Current_norm_ED  : 0.7338
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+pulvilli                  | spmhillip                 | 0.0832	False
+well as being a great     | well as being a great     | 0.3366	True
+--------------------------------------------------------------------------------
+[26000/300000] Train loss: 0.00001, Valid loss: 3.59444, Elapsed_time: 6032.43735
+Current_accuracy : 8.029, Current_norm_ED  : 0.7346
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+vision-struck             | srision-stuck             | 0.9119	False
+dysorexy                  | s.BobelVa                 | 0.0346	False
+--------------------------------------------------------------------------------
+[28000/300000] Train loss: 0.00001, Valid loss: 3.59549, Elapsed_time: 6497.98291
+Current_accuracy : 7.949, Current_norm_ED  : 0.7337
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"it, raised the glass, lighted it" | it, raised the glan, lighoed it | 0.6294	False
+retrieving                | pretriewing               | 0.6090	False
+--------------------------------------------------------------------------------
+[30000/300000] Train loss: 0.00001, Valid loss: 3.61898, Elapsed_time: 6965.04978
+Current_accuracy : 8.029, Current_norm_ED  : 0.7339
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+there for you? But a      | there fir you? But a      | 0.1563	False
+reasonable representations went | rearmable vepresentarinns went | 0.3516	False
+--------------------------------------------------------------------------------
+[32000/300000] Train loss: 0.00001, Valid loss: 3.63020, Elapsed_time: 7456.24815
+Current_accuracy : 8.029, Current_norm_ED  : 0.7341
+Best_accuracy    : 8.267, Best_norm_ED     : 0.7348
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+The new century opened with | The nen canhrny opened with | 0.1513	False
+a cargo more precious than | a cargo more precious xhan | 0.5501	False
+--------------------------------------------------------------------------------

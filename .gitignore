@@ -141,7 +141,3 @@ dmypy.json
 # models
 /trainer/saved_models/
 /trainer/finalSavedModelsAll/
-
-
-application/*
-!application/language/

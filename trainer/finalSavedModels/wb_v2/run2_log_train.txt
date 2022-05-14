@@ -1,0 +1,171 @@
+[2000/300000] Train loss: 0.00001, Valid loss: 1.48768, Elapsed_time: 520.18127
+Current_accuracy : 6.860, Current_norm_ED  : 0.8418
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8418
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+a supply of food. &quot;  | a suypaly of fod.&quot;   | 0.0799	False
+- but we could take them for | -hut We coud take Mhem forr | 0.1103	False
+--------------------------------------------------------------------------------
+[4000/300000] Train loss: 0.00001, Valid loss: 1.49761, Elapsed_time: 994.82859
+Current_accuracy : 6.860, Current_norm_ED  : 0.8418
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8418
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+something messianic for the | something messianic for the | 0.4795	True
+until the next report from | untl the weat report frm  | 0.0875	False
+--------------------------------------------------------------------------------
+[6000/300000] Train loss: 0.00001, Valid loss: 1.49656, Elapsed_time: 1488.39340
+Current_accuracy : 6.860, Current_norm_ED  : 0.8419
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8419
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+There they have stayed    | There they have stayed    | 0.5285	True
+Dickens says the menu was | Rickens sayps the meoun was | 0.1708	False
+--------------------------------------------------------------------------------
+[8000/300000] Train loss: 0.00001, Valid loss: 1.49862, Elapsed_time: 1979.85133
+Current_accuracy : 6.860, Current_norm_ED  : 0.8415
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8419
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+But perhaps in the new    | But perhaps in the no     | 0.0248	False
+progress I beg you to use the | "progress I hegy you to wre the | 0.2531	False
+--------------------------------------------------------------------------------
+[10000/300000] Train loss: 0.00001, Valid loss: 1.50520, Elapsed_time: 2446.62378
+Current_accuracy : 6.860, Current_norm_ED  : 0.8421
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Laud was called upon to do | Sand was calted yon to do | 0.1711	False
+15 ml of 16 m nitric      | 10ml of 1o m nitic        | 0.0896	False
+--------------------------------------------------------------------------------
+[12000/300000] Train loss: 0.00001, Valid loss: 1.51685, Elapsed_time: 2937.63120
+Current_accuracy : 6.860, Current_norm_ED  : 0.8413
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+The Anglican and main protestant | The tugfican and main poetlanl | 0.0522	False
+&quot;What have you got in that | What hace you got in that | 0.3851	False
+--------------------------------------------------------------------------------
+[14000/300000] Train loss: 0.00001, Valid loss: 1.51886, Elapsed_time: 3451.22629
+Current_accuracy : 6.860, Current_norm_ED  : 0.8416
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+But Williams had been reprimanded. | Buit Wlilians had been reyrimencled. | 0.0498	False
+of whom twenty-six would  | of wham toenty-cine mould | 0.2448	False
+--------------------------------------------------------------------------------
+[16000/300000] Train loss: 0.00001, Valid loss: 1.52211, Elapsed_time: 3946.34084
+Current_accuracy : 6.860, Current_norm_ED  : 0.8416
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+have me suffocated        | have me ouffiocated       | 0.5192	False
+out a key # ring. In succession | out - tey er ring. In succpssion | 0.0101	False
+--------------------------------------------------------------------------------
+[18000/300000] Train loss: 0.00001, Valid loss: 1.52130, Elapsed_time: 4456.61321
+Current_accuracy : 6.860, Current_norm_ED  : 0.8420
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+of the resin bed.         | f the resion lel.         | 0.4900	False
+"consist of thirty-five members," | consist of thirty -fire membtes," | 0.1903	False
+--------------------------------------------------------------------------------
+[20000/300000] Train loss: 0.00001, Valid loss: 1.52841, Elapsed_time: 4971.43267
+Current_accuracy : 6.860, Current_norm_ED  : 0.8420
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+at Agnes. She said to     | at Agnes. She said to     | 0.5120	True
+nearer to God. The action of | neoxer- to Good. The action of | 0.0394	False
+--------------------------------------------------------------------------------
+[22000/300000] Train loss: 0.00001, Valid loss: 1.53299, Elapsed_time: 5485.49766
+Current_accuracy : 6.860, Current_norm_ED  : 0.8419
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+It led to no end of a muddle | It led to weo end of a mudlle | 0.6704	False
+straight to his mother&apos;s | straight to his mothess   | 0.2848	False
+--------------------------------------------------------------------------------
+[24000/300000] Train loss: 0.00001, Valid loss: 1.52543, Elapsed_time: 5996.23406
+Current_accuracy : 6.860, Current_norm_ED  : 0.8414
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"McNaught said boredly,"  | MeNaghk said boredly,"    | 0.1556	False
+that a good conversationalist | that a good couusationalist | 0.1032	False
+--------------------------------------------------------------------------------
+[26000/300000] Train loss: 0.00001, Valid loss: 1.54441, Elapsed_time: 6489.41400
+Current_accuracy : 6.860, Current_norm_ED  : 0.8415
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+and choke off speculation | and choke off speanlatiom | 0.1376	False
+Mr. Copthorne turned grey. Without | We. Cothoue hioned gey. Nudat | 0.0161	False
+--------------------------------------------------------------------------------
+[28000/300000] Train loss: 0.00001, Valid loss: 1.53359, Elapsed_time: 6985.51462
+Current_accuracy : 6.860, Current_norm_ED  : 0.8417
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+on a very fine scale      | on a eerny fime scale     | 0.6613	False
+Opinion. Speak up for our friends! | goinion. Speak up for or hiends! | 0.0339	False
+--------------------------------------------------------------------------------
+[30000/300000] Train loss: 0.00001, Valid loss: 1.53860, Elapsed_time: 7486.01031
+Current_accuracy : 6.860, Current_norm_ED  : 0.8415
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Renshaw was known to be left of | Renshaw was known to be left of | 0.1068	True
+unemployment will increase. | cnemployment will increase. | 0.3859	False
+--------------------------------------------------------------------------------
+[32000/300000] Train loss: 0.00001, Valid loss: 1.54533, Elapsed_time: 7980.65442
+Current_accuracy : 6.860, Current_norm_ED  : 0.8417
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"that incises the hardest rock," | that incaitses the hadest rock," | 0.0685	False
+the Shamir writes books and | the Shamir wites boaks ard | 0.2122	False
+--------------------------------------------------------------------------------
+[34000/300000] Train loss: 0.00001, Valid loss: 1.54829, Elapsed_time: 8482.15327
+Current_accuracy : 6.860, Current_norm_ED  : 0.8410
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+after what Mrs. Caine had said | efter what Mes. Caine had said | 0.2180	False
+(This is the pardus .) Matzo | IThis is the porous.) Mateo | 0.0282	False
+--------------------------------------------------------------------------------
+[36000/300000] Train loss: 0.00001, Valid loss: 1.56212, Elapsed_time: 9004.34235
+Current_accuracy : 6.860, Current_norm_ED  : 0.8414
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+than six inches by four.  | thaen sie ineches by four. | 0.2029	False
+you can be proud of yourself. | you con be srond of yorself. | 0.2290	False
+--------------------------------------------------------------------------------
+[38000/300000] Train loss: 0.00001, Valid loss: 1.54965, Elapsed_time: 9516.05195
+Current_accuracy : 6.860, Current_norm_ED  : 0.8418
+Best_accuracy    : 6.860, Best_norm_ED     : 0.8421
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+with or without gloves.   | with or without glovees   | 0.1462	False
+decay completely within six hours. | "decay rompertely within sir hous. | 0.1645	False
+--------------------------------------------------------------------------------

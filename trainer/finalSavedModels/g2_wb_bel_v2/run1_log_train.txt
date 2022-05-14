@@ -1,0 +1,234 @@
+[5000/300000] Train loss: 0.71861, Valid loss: 1.51934, Elapsed_time: 1037.96277
+Current_accuracy : 4.993, Current_norm_ED  : 0.7383
+Best_accuracy    : 4.993, Best_norm_ED     : 0.7383
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+conquers Iarbas           | conguers larkuas          | 0.1815	False
+epigram subsextuple       | epgraes salesueiwr pa     | 0.0030	False
+--------------------------------------------------------------------------------
+[10000/300000] Train loss: 0.08234, Valid loss: 2.34364, Elapsed_time: 2091.66486
+Current_accuracy : 5.132, Current_norm_ED  : 0.7375
+Best_accuracy    : 5.132, Best_norm_ED     : 0.7383
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+have this difficulty.     | have ths difficuityu      | 0.2109	False
+scales shown below.       | "scales shown below.      | 0.2106	False
+--------------------------------------------------------------------------------
+[15000/300000] Train loss: 0.02033, Valid loss: 2.74730, Elapsed_time: 3147.55621
+Current_accuracy : 4.924, Current_norm_ED  : 0.7379
+Best_accuracy    : 5.132, Best_norm_ED     : 0.7383
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+frameshift pre-enclose    | hamcobtke psohe           | 0.0351	False
+amethystlike Evoy         | amcthlaltile Ejvi         | 0.0682	False
+--------------------------------------------------------------------------------
+[20000/300000] Train loss: 0.01001, Valid loss: 2.85484, Elapsed_time: 4201.74331
+Current_accuracy : 5.617, Current_norm_ED  : 0.7477
+Best_accuracy    : 5.617, Best_norm_ED     : 0.7477
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"freely. On the contrary," | "fhecly. On the controry." | 0.1906	False
+mulmul dishcloths         | mulmualt dsheablis        | 0.0244	False
+--------------------------------------------------------------------------------
+[25000/300000] Train loss: 0.00435, Valid loss: 3.03428, Elapsed_time: 5256.82793
+Current_accuracy : 6.449, Current_norm_ED  : 0.7500
+Best_accuracy    : 6.449, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+We have wings instead. &quot; | we have wings instead.&quot; | 0.1127	False
+objectives.               | obrgectives.              | 0.8062	False
+--------------------------------------------------------------------------------
+[30000/300000] Train loss: 0.00004, Valid loss: 3.09977, Elapsed_time: 6310.67956
+Current_accuracy : 6.241, Current_norm_ED  : 0.7491
+Best_accuracy    : 6.449, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+and facilities for German bases | and facilities for Eaman buses | 0.1656	False
+reversional enfettering   | reversional enfettering   | 0.3627	True
+--------------------------------------------------------------------------------
+[35000/300000] Train loss: 0.00003, Valid loss: 3.17390, Elapsed_time: 7364.29458
+Current_accuracy : 6.311, Current_norm_ED  : 0.7496
+Best_accuracy    : 6.449, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+"Ormston continued,"      | Ormstou cooutinmed,"      | 0.2111	False
+preamplifier no-thoroughfare | poamplyfior a-thiroighore | 0.0618	False
+--------------------------------------------------------------------------------
+[40000/300000] Train loss: 0.00002, Valid loss: 3.16125, Elapsed_time: 8421.09529
+Current_accuracy : 6.380, Current_norm_ED  : 0.7498
+Best_accuracy    : 6.449, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Each child had a          | Fach child had a          | 0.9175	False
+the leg.                  | the leg.                  | 0.8938	True
+--------------------------------------------------------------------------------
+[45000/300000] Train loss: 0.00002, Valid loss: 3.24239, Elapsed_time: 9477.77663
+Current_accuracy : 6.588, Current_norm_ED  : 0.7496
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+But the blood suckers have | But the blood suckers have | 0.8483	True
+unreproducible gdinfo     | unceprodacke Aidirtio     | 0.2612	False
+--------------------------------------------------------------------------------
+[50000/300000] Train loss: 0.00002, Valid loss: 3.33327, Elapsed_time: 10530.31099
+Current_accuracy : 6.311, Current_norm_ED  : 0.7495
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+language including a blackmailing | lnguage inchding a bleackmailing | 0.3725	False
+cacogenics upward-stirring | braarry utaxitmd          | 0.0047	False
+--------------------------------------------------------------------------------
+[55000/300000] Train loss: 0.00001, Valid loss: 3.25369, Elapsed_time: 11587.27464
+Current_accuracy : 6.449, Current_norm_ED  : 0.7491
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+and demand economic progression | and demand eronomic propuession | 0.4440	False
+Pan-mongolism senhores    | lan-mornglim senheres     | 0.0118	False
+--------------------------------------------------------------------------------
+[60000/300000] Train loss: 0.00001, Valid loss: 3.37056, Elapsed_time: 12641.82676
+Current_accuracy : 6.311, Current_norm_ED  : 0.7495
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+recuperation chartographic | spdaohn T-sermohe         | 0.0004	False
+pretty a piece of seamanship | "pretty a picel of Bemsnship | 0.3165	False
+--------------------------------------------------------------------------------
+[65000/300000] Train loss: 0.00001, Valid loss: 3.28803, Elapsed_time: 13698.15576
+Current_accuracy : 6.449, Current_norm_ED  : 0.7495
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+thing she knew he was shaking | thing she kenew he was shaksing | 0.3253	False
+"with their knives out, the pack" | uith their harives out, the paok | 0.0223	False
+--------------------------------------------------------------------------------
+[70000/300000] Train loss: 0.00001, Valid loss: 3.37812, Elapsed_time: 14750.85054
+Current_accuracy : 6.380, Current_norm_ED  : 0.7495
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+protocoleopterous mastwood | procolegtonn hustuond     | 0.0708	False
+wave of surprise and      | wave of ourphse and       | 0.6948	False
+--------------------------------------------------------------------------------
+[75000/300000] Train loss: 0.00001, Valid loss: 3.32625, Elapsed_time: 15805.42750
+Current_accuracy : 6.449, Current_norm_ED  : 0.7495
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+discamp unobtrusive       | discame unobtruvie        | 0.4866	False
+"do this, you may have to pay" | do this, you may have to pay | 0.7306	False
+--------------------------------------------------------------------------------
+[80000/300000] Train loss: 0.00001, Valid loss: 3.38345, Elapsed_time: 16859.58162
+Current_accuracy : 6.519, Current_norm_ED  : 0.7490
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+shown here has been special- | "yshown moe has ben spccul | 0.3581	False
+"him a chance, old chap." | "him a chance, adl chap.  | 0.2242	False
+--------------------------------------------------------------------------------
+[85000/300000] Train loss: 0.00001, Valid loss: 3.39536, Elapsed_time: 17912.10175
+Current_accuracy : 6.311, Current_norm_ED  : 0.7493
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+first baptismal vow has been | fist baptioma vow has been | 0.9092	False
+railleur homoeomerianism  | raileur donusioesiansm    | 0.0234	False
+--------------------------------------------------------------------------------
+[90000/300000] Train loss: 0.00001, Valid loss: 3.46956, Elapsed_time: 18969.09685
+Current_accuracy : 6.519, Current_norm_ED  : 0.7494
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+idee-maitresse stere      | Jal-meantows lere         | 0.1194	False
+tin box was exactly as he | tin box was exacthy as he | 0.3546	False
+--------------------------------------------------------------------------------
+[95000/300000] Train loss: 0.00001, Valid loss: 3.39487, Elapsed_time: 20023.97769
+Current_accuracy : 6.241, Current_norm_ED  : 0.7491
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Common view was that.     | "common view was that."   | 0.6965	False
+a low voice. Bone Half smiled | a low mice. Bone Half smiled | 0.5060	False
+--------------------------------------------------------------------------------
+[100000/300000] Train loss: 0.00001, Valid loss: 3.38989, Elapsed_time: 21080.96527
+Current_accuracy : 6.449, Current_norm_ED  : 0.7495
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+her thinking me a selfish | her thinhing me a nellit  | 0.2438	False
+amalgamated Union of      | amalgammated Nnion of     | 0.5207	False
+--------------------------------------------------------------------------------
+[105000/300000] Train loss: 0.00001, Valid loss: 3.45105, Elapsed_time: 22141.23342
+Current_accuracy : 6.449, Current_norm_ED  : 0.7493
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+extraordinary watertight divisions | "exmmoodhimany watentight duisious | 0.1611	False
+conference early in September. | conrerence early in septembar. | 0.5308	False
+--------------------------------------------------------------------------------
+[110000/300000] Train loss: 0.00001, Valid loss: 3.53164, Elapsed_time: 23195.67889
+Current_accuracy : 6.519, Current_norm_ED  : 0.7494
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+table. The combined bench | tabde The combired ouch   | 0.6903	False
+tapen uncials             | Togpslt uun-curtse        | 0.0316	False
+--------------------------------------------------------------------------------
+[115000/300000] Train loss: 0.00001, Valid loss: 3.44659, Elapsed_time: 24252.84471
+Current_accuracy : 6.311, Current_norm_ED  : 0.7493
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+Augusta Leigh Too was     | Acoguste leigh Toa was    | 0.2381	False
+time defend Britain. Tory | Lime dlefend Bellain. Tory" | 0.1516	False
+--------------------------------------------------------------------------------
+[120000/300000] Train loss: 0.00001, Valid loss: 3.40412, Elapsed_time: 25310.52715
+Current_accuracy : 6.380, Current_norm_ED  : 0.7492
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+British Government has agreed | British covernnent has agreed | 0.6835	False
+uninfused psychalgia      | uninfused psychalgia      | 0.2965	True
+--------------------------------------------------------------------------------
+[125000/300000] Train loss: 0.00001, Valid loss: 3.49375, Elapsed_time: 26368.64958
+Current_accuracy : 6.449, Current_norm_ED  : 0.7490
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+There &apos;s going to be an awful | "Thex&aops; gping tobe an aghe | 0.0494	False
+woodworker readers who    | wcodnorker raders wno     | 0.6065	False
+--------------------------------------------------------------------------------
+[130000/300000] Train loss: 0.00001, Valid loss: 3.44763, Elapsed_time: 28620.33801
+Current_accuracy : 6.519, Current_norm_ED  : 0.7494
+Best_accuracy    : 6.588, Best_norm_ED     : 0.7500
+--------------------------------------------------------------------------------
+Ground Truth              | Prediction                | Confidence Score & T/F
+--------------------------------------------------------------------------------
+For in her heart of hearts Beryl | Tror in der heast of heatt Beruyl | 0.1178	False
+discamp unobtrusive       | discame unobtrusie        | 0.4564	False
+--------------------------------------------------------------------------------

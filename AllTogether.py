@@ -1,31 +1,52 @@
 # from matplotlib import pyplot as plt
 import cv2
 import easyocr
-# import argparse
 import numpy as np
 from fpdf import FPDF
 from autocorrect import Speller
 import preprocessing
+import argparse
+from pathlib import Path
+
+# Create the parser
+my_parser = argparse.ArgumentParser(description='perform ocr on image')
+
+# Add the arguments
+my_parser.add_argument('--path',
+                       action='store',
+                       type=str,
+                       required=False,
+                       default='sampleImages/slide.png',
+                       help='the path to image')
+
+# Execute the parse_args() method
+args = my_parser.parse_args()
+
+img_path = args.path
 
 # Change img_name to image path without the file type extension
-img_name = "sampleImages/slide"
+img_name = Path(img_path).stem
 
-# Change img_type to image type .xxxx extension
-img_type = ".png"
+# read image into memory
+img = cv2.imread(img_path)
+# copy image
+img_copy = img.copy()
+# run preprocessing on the img
+prepro_img = preprocessing.preprocess(img)
 
-img = cv2.imread(img_name+img_type)
+# Uncomment to display original and processed images
+cv2.imshow('img', img)
+cv2.imshow('prepro_img', prepro_img)
+cv2.waitKey(0)
 
-# Uncomment if cropping is needed
-# prepro_img = preprocessing.preprocess(img)
-
-# Uncomment if no cropping is needed
-prepro_img = img
-# cv2.imshow(img)
-# cv2.imshow(prepro_img)
-# img_copy = img.copy()
-
-reader = easyocr.Reader(['en'])  # this needs to run only once to load the model into memory
-# Patrick Update with New Model
+# Comment out all the readers except the one with the desired recog_network
+# this needs to run only once to load the model into memory
+# base model
+reader = easyocr.Reader(['en'])
+# model trained on IAM-onDB dataset
+# reader = easyocr.Reader(['en'], recog_network='wb_v2')
+# further training of base model using IAM-onDB dataset and synthetic data generated with TextRecognitionDataGenerator
+# reader = easyocr.Reader(['en'], recog_network='g2_wb_bel_v2')
 
 # Use OCR model to extract text
 # Doesn't use preprocessing
@@ -67,6 +88,10 @@ for _, text, __ in results:  # _ = bounding box, text = text and __ = confident 
     final_text += " "
     final_text += text
 print(final_text)
+
+# Uncomment to show image wiht bounding boxes
+# cv2.imshow("cloneImg", cloneImg)
+# cv2.waitKey(0)
 
 spell = Speller()
 
@@ -115,4 +140,4 @@ for x in range(i):
              txt=spell(results[x][1]))  # Uncomment for spell check
 
 # Save output PDF
-pdf.output(img_name + '.pdf')
+pdf.output(f"sampleResults/{img_name}.pdf")

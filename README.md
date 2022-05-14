@@ -18,7 +18,8 @@ If you want to generate your own synthetic data follow the instructions at [Text
 ## Running the virtual notetaker
 To run the virtual note taker use either AllTogether.ipynb in jupyter notebooks or run AllTogether.py.
 
-If using AllTogether.py pass the path to the image you wish to perform OCR on as a commoand line argument.
+If using AllTogether.py pass the path to the image you wish to perform OCR on as a command line argument.
+
 `python AllTogether.py --path sampleImages/slide.png`
 
 
@@ -36,10 +37,10 @@ In the config file make sure the following variables are correct:
 
 The data used to train the models is included in the folder [download](https://lsumail2-my.sharepoint.com/:f:/g/personal/pherke1_lsu_edu/EskJvnoZlSlIoJm5iVsxUGsBzxwFyjd8pEe__ThRipXxbg?e=q4rohw). The structure of each zipped data folder should be placed as follows in the main repository. The two sets of validation data can be used during training, while the model should never see the test_data while training.
 trainer
-└── all_data
-    ├── train_data
-    ├── valid_data-1
-    ├── valid_data-2
+└── all_data  
+    ├── train_data  
+    ├── valid_data-1  
+    ├── valid_data-2  
     └── test_data
 
 To test the accuracy of the model use test_orig.py and pass the config file as a command line option.

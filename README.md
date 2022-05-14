@@ -36,7 +36,8 @@ In the config file make sure the following variables are correct:
 - saved_model (specify path if you want to do further training of a saved model)
 
 The data used to train the models is included in the folder [download](https://lsumail2-my.sharepoint.com/:f:/g/personal/pherke1_lsu_edu/EskJvnoZlSlIoJm5iVsxUGsBzxwFyjd8pEe__ThRipXxbg?e=q4rohw). The structure of each zipped data folder should be placed as follows in the main repository. The two sets of validation data can be used during training, while the model should never see the test_data while training.
-trainer
+
+trainer  
 └── all_data  
     ├── train_data  
     ├── valid_data-1  

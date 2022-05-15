@@ -40,15 +40,13 @@ cv2.imshow('prepro_img', prepro_img)
 cv2.waitKey(0)
 
 # Comment out all the readers except the one with the desired recog_network
-# If using one of the models with a recog network specified
-# you need to follow the steps for using a custom model in the README.md
 # this needs to run only once to load the model into memory
 # base model
 reader = easyocr.Reader(['en'])
 # model trained on IAM-onDB dataset
-# reader = easyocr.Reader(['en'], recog_network='wb_v2')
+# reader = easyocr.Reader(['en'], model_storage_directory='model', user_network_directory='user_network', recog_network='wb_v2')
 # further training of base model using IAM-onDB dataset and synthetic data generated with TextRecognitionDataGenerator
-# reader = easyocr.Reader(['en'], recog_network='g2_wb_bel_v2')
+# reader = easyocr.Reader(['en'], model_storage_directory='model', user_network_directory='user_network', recog_network='g2_wb_bel_v2')
 
 # Use OCR model to extract text
 # Doesn't use preprocessing

@@ -1,0 +1,91 @@
+Ground truth
+--------------------------------------------------------------------------------
+image_path               	  predicted_labels
+--------------------------------------------------------------------------------
+demoImages\r01-034z-01.jpg  "Within the United States, it"
+demoImages\r01-034z-02.jpg  is Robinson to appear like a
+demoImages\r01-034z-03.jpg  Jones. The North pole is Jones.
+demoImages\r01-034z-04.jpg  The South pole is Robinson.
+demoImages\r01-034z-05.jpg  Chapter five. To Jones according
+demoImages\r01-034z-06.jpg  to his needs.
+
+Model: wb_v2.pth
+----------------------------------------------------
+predicted_labels         	confidence score
+----------------------------------------------------
+Within the rited states, it"		0.0779
+is; Robinson to appear like a		0.2781
+Sones. The North pole is Sones.		0.4994
+The south pole is Roisinson.		0.5210
+Cinapter five. To Dones acording	0.3743
+to his needl.				0.5285
+
+Model: g2_wb_bel_v2.pth
+------------------------------------------------------------
+predicted_labels         	confidence score
+------------------------------------------------------------
+Within the Vaited States, it"		0.1278
+is Robinson to appear like a		0.8603
+Bones. The North pole is Jones.		0.2902
+The south pole is Roisinson.		0.4686
+Chapter five. To Jones according	0.6752
+to his need.				0.4680
+
+Model: english_g2.pth using demo.py
+------------------------------------------------------------
+predicted_labels         	confidence score
+------------------------------------------------------------
+~watkn the UxteA Sates, #		0.0000
+i Rsbinin t Tf"or lika ^		0.0001
+~Jonea Th Noxlk pela is Jonea		0.0004
+~ke s-4h pulc % €s5+sn			0.0000
+~Cx"pter fve Ts Jones Aorkij		0.0000
+~t ks necd,				0.0014
+
+Model: english_g2.pth using EasyOCR
+------------------------------------------------------------
+predicted_labels         	confidence score (avg per word)
+------------------------------------------------------------
+W;+h;n 4he United tates 3t		0.5215
+', Robinson 4o ~(pear like a		0.5896
+Nor-h is Jones. O 2S . Pole The		0.5974
+~he south (o5nSon_ Pele 3S		0.5984
+Chapter f:ve To Jones accov d.nJ	0.3793
+need , K <				0.6124
+
+[INFO] 0.5819: W;+h;n
+[INFO] 0.8929: 4he
+[INFO] 0.5753: United tates
+[INFO] 0.0360: 3t
+ W;+h;n 4he United tates 3t
+
+[INFO] 0.4887: ',
+[INFO] 0.4038: Robinson
+[INFO] 0.6066: 4o
+[INFO] 0.1711: ~(pear
+[INFO] 0.9420: like
+[INFO] 0.9255: a
+ ', Robinson 4o ~(pear like a
+
+[INFO] 0.5229: Nor-h
+[INFO] 0.4699: is Jones.
+[INFO] 0.2360: O 2S .
+[INFO] 0.7670: Pole
+[INFO] 0.9910: The
+ Nor-h is Jones. O 2S . Pole The
+
+[INFO] 0.9483: ~he
+[INFO] 0.5627: south
+[INFO] 0.5993: (o5nSon_
+[INFO] 0.8106: Pele
+[INFO] 0.0720: 3S
+ ~he south (o5nSon_ Pele 3S
+
+[INFO] 0.6874: Chapter
+[INFO] 0.3243: f:ve To Jones
+[INFO] 0.1262: accov d.nJ
+ Chapter f:ve To Jones accov d.nJ
+
+[INFO] 0.8388: need ,
+[INFO] 0.3861: K <
+ need , K <

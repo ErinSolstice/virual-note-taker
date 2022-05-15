@@ -1,0 +1,46 @@
+number: '0123456789'
+symbol: "!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ €"
+lang_char: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+#experiment_name: 'wb_only1'
+#train_data: 'all_data'
+#valid_data: 'all_data/wb_val_1'
+#manualSeed: 1111
+image_folder: 'demoImages'
+workers: 1
+batch_size: 32 #32
+#num_iter: 300000
+#valInterval: 20000
+saved_model: 'finalSavedModels/g2_wb_bel_v2/g2_wb_bel_v2.pth' #'saved_models/en_filtered/iter_300000.pth'
+#FT: False
+#optim: False # default is Adadelta
+#lr: 1.
+#beta1: 0.9
+#rho: 0.95
+#eps: 0.00000001
+#grad_clip: 5
+#Data processing
+#select_data: 'wb_train' # this is dataset folder in wb_train
+#batch_ratio: '1'
+#total_data_usage_ratio: 1.0
+batch_max_length: 34
+imgH: 300
+imgW: 300
+rgb: False
+#contrast_adjust: False
+sensitive: True
+PAD: True
+#contrast_adjust: 0.0
+baiduCTC: True
+# Model Architecture
+Transformation: 'None'
+FeatureExtraction: 'VGG'
+SequenceModeling: 'BiLSTM'
+Prediction: 'CTC'
+num_fiducial: 20
+input_channel: 1
+output_channel: 256
+hidden_size: 256
+#decode: 'greedy'
+#new_prediction: False
+#freeze_FeatureFxtraction: False
+#freeze_SequenceModeling: False
